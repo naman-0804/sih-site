@@ -1,0 +1,465 @@
+/* App.css */
+
+.logo{
+  width: 60px;
+  height: 61px;
+  border-radius: 30px;
+  float: left;
+}
+.doc{
+  width : 200px;
+  height: 250px;
+  border-radius: 30px;
+}
+.app-container {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: indianred;
+    font-family: 'Roboto Slab', serif; 
+    color:bisque;
+  }
+  
+  .navigation-table {
+    margin: 0 auto;
+    border: none;
+    border-collapse: collapse;
+    width: 50%;
+
+  }
+  
+  .navigation-table th, .navigation-table td {
+    padding: 10px;
+    border: none;
+  }
+  
+  .navigation-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .body{
+    background-color: indianred;
+  }
+  .page1{
+
+    background-size: cover; 
+    /*background-position: center;*/ 
+    background-repeat: no-repeat; 
+     /* Adjust the value as needed */
+    background-color: #f0f0f0;
+  }
+  .main{
+    padding-left: 20px; /* Adjust the value as needed */
+    margin: 20px;  /* Adjust the value as needed */
+  
+  }
+  .heading{ 
+    color: violet;
+  }
+  /* Container for navigation bar */
+.navigation-bar {
+  background-color: rosybrown; /* Background color of navbar */
+  padding: 10px 0; /* Padding for some space */
+  text-align: right;
+}
+
+/* Unordered list (navbar container) */
+.navigation-list {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0; /* No margin */
+  padding: 0; /* No padding */
+  display: flex; /* Horizontal layout */
+  justify-content: left; /* Center the list items */
+}
+
+/* Each list item */
+.navigation-list li {
+  margin: 0 15px; /* Space between each link */
+}
+
+/* Style for links */
+.nav-link {
+  color: white; /* White text color */
+  text-decoration: none; /* No underline */
+  font-size: 18px; /* Font size */
+  padding: 10px 15px; /* Padding inside the link */
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth hover and opacity effect */
+  opacity: 0.8; /* Initial opacity, slightly transparent */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  background-color: #555; /* Darker background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+  opacity: 1; /* Fully opaque on hover */
+}
+
+.typewriter-container {
+  width: fit-content; /* Adjust to text width */
+  white-space: nowrap; /* Keep text on one line */
+  overflow: hidden; /* Hide overflowing text during animation */
+  font-size: 18px;
+  color:brown;
+  font-family: 'Courier New', monospace; /* Monospace font for typewriter look */
+  text-align: left; /* Align text to the left */
+  animation: typewriter 4s steps(40, end) infinite, blinkCursor 1.5s step-end infinite;
+}
+
+/* Typewriter animation */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking cursor animation */
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+  100% { border-color: black; }
+}
+
+/* Container for the cards */
+.container {
+  display: flex;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Wrap cards to the next line if they overflow */
+  padding: 20px;
+  justify-content: center; /* Center the cards horizontally */
+}
+
+/* Individual card styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside the card */
+  width: 300px; /* Fixed width for each card */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  transition: background-color 0.3s ease; /* Smooth transition effect on hover */
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.5em; /* Adjust size as needed */
+  margin-bottom: 10px; /* Space below the title */
+  color: #333; /* Dark text color */
+}
+
+/* Card content styling */
+.card-content {
+  font-size: 1em; /* Adjust size as needed */
+  color: #666; /* Slightly lighter text color */
+}
+
+/* Hover effect to make the card more solid when hovered */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background-color: rgba(255, 255, 255, 1); /* Full opacity on hover */
+}
+
+.video-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 600px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-section {
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.team-member {
+  display: flex;
+  width: 100%;
+}
+
+.team-info {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.team-image1 {
+  flex: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image:url() ;
+  border-color: wheat;
+  
+}
+.team-image3 {
+  flex: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url() ;
+}
+.team-image2 {
+  flex: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url() ;
+}
+.team-image4 {
+  flex: 1;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url() ;
+}
+.team-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 5px;
+}
+
+h1{
+  color: bisque;
+  text-align: left;
+}
+
+.about{
+  background-color: burlywood;
+}
+.heading1{
+  background-color: beige;
+  color: cadetblue;
+}
+
+/*new------------------------*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.images {
+  position: relative;
+}
+
+.img-large {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.img-small {
+  width: 50%;
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  flex: 1;
+}
+
+.tag {
+  display: inline-block;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.check-icon {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+  min-width: 200px;
+}
+
+.footer-column h5 {
+  margin-bottom: 20px;
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.icon.map-marker::before {
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.icon.phone::before {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.icon.envelope::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f8f9fa;
+  border-radius: 50%;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #495057;
+}
+
+.footer-link {
+  display: block;
+  color: #f8f9fa;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background-color: #0056b3;
+}
